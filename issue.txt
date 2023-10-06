@@ -1,0 +1,23 @@
+void main() {
+  Ca apple = Ca('Bhagyaraju', 18);
+  print(apple.username); 
+  print(apple.age);
+
+  apple.another();
+
+}
+
+class Ca { //defining class
+
+  String username;
+  int age;
+
+  Ca(String username, int age) {
+    this.username = username;
+    this.age = age;
+  }
+
+  void another() {
+    print('Another printed!');
+  }
+}
